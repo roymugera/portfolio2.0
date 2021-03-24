@@ -1,7 +1,11 @@
- /* 
  
- function linkButton() {
-    document.getElementById("linkMessage").innerHTML = "Visit website";
-}; 
+ /*
+ let imageCardRight= document.querySelector(".card");
+imageCardRight.style.onclick = 'rotateY(180deg)';
 
 */
+ 
+ 
+ 
+
+
