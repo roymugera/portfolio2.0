@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,500&display=swap');
 
 *{
-	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
 
 body {
-	background-color: wheat;
+	background: linear-gradient(rgba(146, 144, 144, 0.007), rgba(95, 95, 95, 0.11)), url('resources/vecteezy_white-squared-paper-sheet-background_94103/free-squared-paper-vector.jpg');
+	background-size: cover;
 	line-height: 1.5;
 	font-family: 'Montserrat';
 	overflow: hidden;
@@ -16,9 +16,12 @@ body {
 aside {
 	background-color: coral;
 	position: fixed;
-	width: 300px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 20%;
 	height: 100vh;
-	z-index: 2;	
+	z-index: 10;	
 	box-shadow: 10px 2px 70px 5px rgba(0, 0, 0, 0.418);
 }
 
@@ -84,17 +87,11 @@ aside {
 }
 
 main {
-	background: linear-gradient(rgba(146, 144, 144, 0.007), rgba(95, 95, 95, 0.11)), url('resources/vecteezy_white-squared-paper-sheet-background_94103/free-squared-paper-vector.jpg');
-	width: 100%;
+	display: block;
 	height: 100vh;
-	overflow-y: scroll;
-	/* background-image: url('resources/vecteezy_white-squared-paper-sheet-background_94103/free-squared-paper-vector.jpg');*/
-}
-
-#home, #portfolio, #about, #contact {
-	margin-left: 300px;
-	margin-bottom: 20px;
-	padding-bottom:80px;	
+	max-width: 100%;
+	overflow-y: scroll;	
+	overflow-x: hidden;
 }
 
 h4 {
@@ -102,23 +99,33 @@ h4 {
 	color: white;
 	font-size: 20px;
 	padding: 30px;
-	padding-left: 133px;
+	padding-left: 180px;
+	text-align: left;
+	display: block;
+}
+
+#home, #portfolio, #about, #contact {
+	padding-bottom: 80px;
+	margin-left: 290px;
+	margin-bottom: 30px;
 }
 
 #home {
-	padding-bottom: 400px;
+	padding-bottom: 380px;
 }
 
 #home h1 {
-	padding-left: 130px;
-	padding-top: 170px;
+	margin-top: 200px;
+	padding-left: 175px;
+	font-size: 35px;
+
 }
 
 #home p {
 	padding: 10px;
-	padding-left: 130px;
-	padding-right: 70px;
-	padding-top: 30px;
+	padding-left: 180px;
+	padding-right: 160px;
+	padding-top: 20px;
 	font-size: 16px;
 	line-height: 1.8;
 }
@@ -128,8 +135,8 @@ h4 {
 	padding: 20px 80px;
 	color: white;
 	position: relative;
-	top: 60px;
-	left: 130px;
+	top: 40px;
+	left: 180px;
 	background-color: coral;
 	opacity: 5px;
 	border-radius: 10px;
@@ -140,20 +147,20 @@ h4 {
 }
 
 #about {
-	padding-bottom: 250px;
+	padding-bottom: 155px;
 }
 
 #about p {
 	padding: 10px;
-	padding-left: 130px;
-	padding-right: 70px;
+	padding-left: 180px;
+	padding-right: 125px;
 	padding-top: 40px;
 	font-size: 16px;
 	line-height: 1.8;
 }
 
 #contact {
-	padding-bottom: 600px;
+	padding-bottom: 250px;
 }
 
 .contact-links a {
@@ -204,7 +211,6 @@ h4 {
 	transition: transform 1s ease-in-out;
 	transform-style: preserve-3d;
 }
-
 
 .card:hover {
 	transform: rotateY(180deg);
@@ -265,30 +271,262 @@ h4 {
 	font-size: 40px;
 }
 
-
-/****** Responsive design *******/
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/* Styles */
-
-aside {
+header, #main, #mini-home, #mini-about, #mini-portfolio, #mini-contact {
 	display: none;
+	visibility: hidden;
 }
 
 
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 420px) {
+
+	body {
+		overflow-y: scroll;	
+	}
+
+	aside, main {
+		display: none;
+	}
+
+	header {
+		padding-top:20px;
+		padding-right: 20px;
+		max-width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: mediumseagreen;
+		z-index: 10;
+		display: block;
+		visibility: visible;
+	}
+
+	nav a {
+		float: right;
+		text-decoration: none;
+		visibility: visible;
+	}
+
+	nav .fa-bars {
+		color: white;
+		font-size: 25px;
+		position: relative;
+		top: -36px;
+	}
+
+	.side-menu {
+		background-color: black;
+		height: 100vh;
+		width: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 2;
+		opacity: 0.8;
+		overflow-x: hidden;
+		padding-top: 80px;
+		transition: 0.5s;
+		-webkit-transition: 0.5s;
+	}
+
+	.side-menu a {
+		padding: 40px 20px;
+		text-decoration: none;
+		font-size: 17px;
+		color: #ccc;
+		display: block;
+		position: relative;
+		top: 50px;
+		left: 90px;
+		transition: 0.3s;
+	}
+
+	.side-menu .btn-close {
+		position: absolute;
+		top: -20px;
+		left: 232px;
+		font-size: 20px;
+		color: white;
+	}
+
+	label, header p {
+		color: white;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		top: 0;
+		bottom: 0;
+		left: 12px;
+	}
+
+	header p {
+		font-size: 10px;
+		padding-top: 5px;
+	}
+
+	#main {
+		display: block;
+		visibility: visible;
+		overflow-x: hidden;
+		height: 100vh;
+		max-width: 100%;
+	}
+
+	#mini-home, #mini-about, #mini-portfolio, #mini-contact {
+		display: block;
+		visibility: visible;
+	}
+
+	#mini-home {
+		margin-top: 120px;
+		padding-top: 40px;
+		padding-bottom:200px;
+	}
+	
+	#mini-home h1 {
+		text-align: center;
+	}
+
+	#mini-home p {
+		position: relative;
+		left: 20px;
+		padding-top:20px;
+		padding-left: 50px;
+		padding-right: 80px;
+		text-align: justify;
+	}
+
+	#mini-home a {
+		background-color: coral;
+		opacity: 0.8;
+		text-decoration: none;
+		text-align: center;
+		padding: 15px;
+		padding-left: 100px;
+		padding-right: 100px;
+		position: relative;
+		top: 50px;
+		left: 60px;
+		color: white;
+		
+	}
+
+	#mini-about {
+		padding-bottom:100px;
+
+	}
+	
+	#mini-about p {
+		position: relative;
+		left: 20px;
+		padding-top:30px;
+		padding-left: 40px;
+		padding-right: 70px;
+		text-align: justify;
+	}
+
+	#mini-contact {
+		padding-bottom: 100px;
+	}
+
+	#mini-contact .fa-linkedin-square, #mini-contact .fa-github-square, #mini-contact .fa-imdb {
+		position: relative;
+		left: 50px;
+
+	}
+
+	#mini-contact p {
+		position: relative;
+		top: 60px;
+		right: 140px;
+		font-size: 16px;
+	}
+
+	#mini-contact .github-p {
+		position: relative;
+		right: 130px;
+	}
+
+	#mini-contact .vector-p {
+		position: relative;
+		right: 100px;
+		text-align: center;
+	}
+
+	#mini-portfolio {
+		padding-bottom: 10px;
+	}
+
+	#mini-portfolio .card-container {
+		width: 300px;
+		height: 200px;
+		position: relative;
+		right: 70px;
+		top: 20px;
+		margin-bottom: 40px;
+	}
+
+	#mini-portfolio .container-mini {
+		display: block;
+	}
+
+	#mini-portfolio .flex {
+		display: block;
+		margin-top: -40px;
+	}
+
+	#mini-portfolio .back p {
+		padding-top: 40px;
+		padding-left: 10px;
+		text-align: justify;
+		font-size: 12px;
+	}
+
+	#mini-portfolio .back h2 {
+		font-size: 14px;
+		position: relative;
+		top: 30px;
+		font-weight: bold;
+	}
+
+	#mini-social a {
+		text-decoration: none;
+		display: inline-flex;
+		margin: 12px;
+		margin-top: 2px;
+		margin-bottom: 25px;
+	}
+
+	#mini-social a .fa-external-link {
+		font-size: 30px;
+	}
+
+	#mini-social a .fa-github {
+		font-size: 33px;
+	}		
+
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-/* Styles */
+/*
+
+@media (min-width: 800px ) and (max-width:1366px) {
+	main {
+		background-color:khaki;
+		max-width: 100%;
+	}
+
+	#home {
+		position: relative;
+		right: 50px;
+	}
+
+
+
 }
 
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-/* Styles */
-}
+*/
