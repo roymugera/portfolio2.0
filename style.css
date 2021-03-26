@@ -277,12 +277,6 @@ header, #main, #mini-home, #mini-about, #mini-portfolio, #mini-contact {
 }
 
 
-@media (min-witdh: 800px) and (max-width: 1200px) {
-	main {
-		background-color: orange;
-	}
-
-
 
 
 @media (min-width: 0px) and (max-width: 420px) {
