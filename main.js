@@ -192,6 +192,8 @@ function xLogo () {
     document.getElementById("p-nine").style.display = 'none';
     document.getElementById("h-nine").style.display = 'none';
     document.getElementById("l-nine").style.display = 'none';
+    document.getElementById("xLogoMini").style.visibility = 'hidden';
+    document.getElementById("paragraph-mini").style.display = 'none';
 
 };
 
@@ -222,16 +224,16 @@ function xMenuMini() {
 
 };
 
-function xLogo() { 
-    document.getElementById("xLogoMini").style.visibility = 'hidden';
-    document.getElementById("paragraph-mini").style.display = 'none';
-};
 
+
+
+/*
 
 function sideView () {
     document.getElementById("side-menu").style.width = '0';
 };
 
+*/
 
 
 
