@@ -225,15 +225,12 @@ function xMenuMini() {
 };
 
 
+// When clicking on the side
 
-
-/*
-
-function sideView () {
+function sideView() {
     document.getElementById("side-menu").style.width = '0';
 };
 
-*/
 
 
 
