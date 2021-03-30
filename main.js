@@ -13,7 +13,6 @@ function xMenu () {
 
 };
 
-
 function dotMenuOne() {
     document.getElementById("subOne").style.height = '420px';
     document.getElementById("xLogo-one").style.visibility = 'visible';
@@ -28,6 +27,7 @@ function xMenuOne() {
 
 
 // Box-two
+
 function dotMenuTwo () {
     document.getElementById("subTwo").style.height = '420px';
     document.getElementById("xLogo-two").style.visibility = 'visible';
@@ -158,8 +158,195 @@ function xMenuNine() {
 };
 
 
+
+
+
+
+
+
+
+
+
+
+// Box-one-mini
+
+function dotMenuMini () {
+    document.getElementById("subZeroMini").style.height = '420px';
+    document.getElementById("xLogoMini").style.visibility = 'visible';
+    document.getElementById("paragraph-mini").style.display = 'block';
+};
+
+function xMenuMini() {
+    document.getElementById("subZeroMini").style.height = '0'; 
+    document.getElementById("xLogoMini").style.visibility = 'hidden';
+    document.getElementById("paragraph-mini").style.display = 'none';
+
+};
+
+function dotMenuMiniOne () {
+    document.getElementById("subOneMini").style.height = '420px';
+    document.getElementById("xLogoMiniOne").style.visibility = 'visible';
+    document.getElementById("p-mini-one").style.display = 'block';
+};
+
+function xMenuMiniOne() {
+    document.getElementById("subOneMini").style.height = '0'; 
+    document.getElementById("xLogoMiniOne").style.visibility = 'hidden';
+    document.getElementById("p-mini-one").style.display = 'none';
+
+};
+
+
+// Box-two-mini
+
+function dotMenuMiniTwo () {
+    document.getElementById("subTwoMini").style.height = '420px';
+    document.getElementById("xLogoMiniTwo").style.visibility = 'visible';
+    document.getElementById("h-two-mini").style.display = 'block';
+    document.getElementById("p-two-mini").style.display = 'block';
+    document.getElementById("l-two-mini").style.display = 'block';
+};
+
+function xMenuMiniTwo() {
+    document.getElementById("subTwoMini").style.height = '0';
+    document.getElementById("xLogoMiniTwo").style.visibility = 'hidden';
+    document.getElementById("h-two-mini").style.display = 'none';
+    document.getElementById("p-two-mini").style.display = 'none';
+    document.getElementById("l-two-mini").style.display = 'none';
+
+};
+
+function dotMenuMiniThree() {
+    document.getElementById("subThreeMini").style.height = '420px';
+    document.getElementById("xLogoMiniThree").style.visibility = 'visible';
+    document.getElementById("h-three-mini").style.display = 'block';
+    document.getElementById("p-three-mini").style.display = 'block';
+    document.getElementById("l-three-mini").style.display = 'block';
+};
+
+function xMenuMiniThree() {
+    document.getElementById("subThreeMini").style.height = '0'; 
+    document.getElementById("xLogoMiniThree").style.visibility = 'hidden';
+    document.getElementById("h-three-mini").style.display = 'none';
+    document.getElementById("p-three-mini").style.display = 'none';
+    document.getElementById("l-three-mini").style.display = 'none';
+
+};
+
+
+
+// Box-three-mini
+
+function dotMenuMiniFour () {
+    document.getElementById("subFourMini").style.height = '420px';
+    document.getElementById("xLogoMiniFour").style.visibility = 'visible';
+    document.getElementById("h-four-mini").style.display = 'block';
+    document.getElementById("p-four-mini").style.display = 'block';
+    document.getElementById("l-four-mini").style.display = 'block';
+};
+
+function xMenuMiniFour() {
+    document.getElementById("subFourMini").style.height = '0';
+    document.getElementById("xLogoMiniFour").style.visibility = 'hidden';
+    document.getElementById("h-four-mini").style.display = 'none';
+    document.getElementById("p-four-mini").style.display = 'none';
+    document.getElementById("l-four-mini").style.display = 'none';
+
+};
+
+function dotMenuMiniFive() {
+    document.getElementById("subFiveMini").style.height = '420px';
+    document.getElementById("xLogoMiniFive").style.visibility = 'visible';
+    document.getElementById("h-five-mini").style.display = 'block';
+    document.getElementById("p-five-mini").style.display = 'block';
+    document.getElementById("l-five-mini").style.display = 'block';
+};
+
+function xMenuMiniFive() {
+    document.getElementById("subFiveMini").style.height = '0'; 
+    document.getElementById("xLogoMiniFive").style.visibility = 'hidden';
+    document.getElementById("h-five-mini").style.display = 'none';
+    document.getElementById("p-five-mini").style.display = 'none';
+    document.getElementById("l-five-mini").style.display = 'none';
+
+};
+
+
+// Box-four-mini
+
+function dotMenuMiniSix () {
+    document.getElementById("subSixMini").style.height = '420px';
+    document.getElementById("xLogoMiniSix").style.visibility = 'visible';
+    document.getElementById("p-six-mini").style.display = 'block';
+    document.getElementById("l-six-mini").style.display = 'block';
+};
+
+function xMenuMiniSix() {
+    document.getElementById("subSixMini").style.height = '0';
+    document.getElementById("xLogoMiniSix").style.visibility = 'hidden';
+    document.getElementById("p-six-mini").style.display = 'none';
+    document.getElementById("l-six-mini").style.display = 'none';
+
+};
+
+function dotMenuMiniSeven() {
+    document.getElementById("subSevenMini").style.height = '420px';
+    document.getElementById("xLogoMiniSeven").style.visibility = 'visible';
+    document.getElementById("h-seven-mini").style.display = 'block';
+    document.getElementById("p-seven-mini").style.display = 'block';
+    document.getElementById("l-seven-mini").style.display = 'block';
+};
+
+function xMenuMiniSeven() {
+    document.getElementById("subSevenMini").style.height = '0'; 
+    document.getElementById("xLogoMiniSeven").style.visibility = 'hidden';
+    document.getElementById("h-seven-mini").style.display = 'none';
+    document.getElementById("p-seven-mini").style.display = 'none';
+    document.getElementById("l-seven-mini").style.display = 'none';
+
+};
+
+
+// Box-five-mini
+
+function dotMenuMiniEight () {
+    document.getElementById("subEightMini").style.height = '420px';
+    document.getElementById("xLogoMiniEight").style.visibility = 'visible';
+    document.getElementById("h-eight-mini").style.display = 'block';
+    document.getElementById("p-eight-mini").style.display = 'block';
+    document.getElementById("l-eight-mini").style.display = 'block';
+};
+
+function xMenuMiniEight() {
+    document.getElementById("subEightMini").style.height = '0';
+    document.getElementById("xLogoMiniEight").style.visibility = 'hidden';
+    document.getElementById("h-eight-mini").style.display = 'none';
+    document.getElementById("p-eight-mini").style.display = 'none';
+    document.getElementById("l-eight-mini").style.display = 'none';
+
+};
+
+function dotMenuMiniNine() {
+    document.getElementById("subNineMini").style.height = '420px';
+    document.getElementById("xLogoMiniNine").style.visibility = 'visible';
+    document.getElementById("h-nine-mini").style.display = 'block';
+    document.getElementById("p-nine-mini").style.display = 'block';
+    document.getElementById("l-nine-mini").style.display = 'block';
+};
+
+function xMenuMiniNine() {
+    document.getElementById("subNineMini").style.height = '0'; 
+    document.getElementById("xLogoMiniNine").style.visibility = 'hidden';
+    document.getElementById("h-nine-mini").style.display = 'none';
+    document.getElementById("p-nine-mini").style.display = 'none';
+    document.getElementById("l-nine-mini").style.display = 'none';
+
+};
+
+
+
+
 // Different ID's for the body
- 
 function xLogo () {
     document.getElementById("xLogo").style.visibility = 'hidden';
     document.getElementById("paragraph").style.display = 'none';
@@ -192,41 +379,57 @@ function xLogo () {
     document.getElementById("p-nine").style.display = 'none';
     document.getElementById("h-nine").style.display = 'none';
     document.getElementById("l-nine").style.display = 'none';
+
+    // Mobile version
     document.getElementById("xLogoMini").style.visibility = 'hidden';
     document.getElementById("paragraph-mini").style.display = 'none';
+    document.getElementById("xLogoMiniOne").style.visibility = 'hidden';
+    document.getElementById("p-mini-one").style.display = 'none';
+    document.getElementById("xLogoMiniTwo").style.visibility = 'hidden';
+    document.getElementById("h-two-mini").style.display = 'none';
+    document.getElementById("p-two-mini").style.display = 'none';
+    document.getElementById("l-two-mini").style.display = 'none';
+    document.getElementById("xLogoMiniThree").style.visibility = 'hidden';
+    document.getElementById("h-three-mini").style.display = 'none';
+    document.getElementById("p-three-mini").style.display = 'none';
+    document.getElementById("l-three-mini").style.display = 'none';
+    document.getElementById("xLogoMiniFour").style.visibility = 'hidden';
+    document.getElementById("h-four-mini").style.display = 'none';
+    document.getElementById("p-four-mini").style.display = 'none';
+    document.getElementById("l-four-mini").style.display = 'none';
+    document.getElementById("xLogoMiniFive").style.visibility = 'hidden';
+    document.getElementById("h-five-mini").style.display = 'none';
+    document.getElementById("p-five-mini").style.display = 'none';
+    document.getElementById("l-five-mini").style.display = 'none';
+    document.getElementById("xLogoMiniSix").style.visibility = 'hidden';
+    document.getElementById("p-six-mini").style.display = 'none';
+    document.getElementById("l-six-mini").style.display = 'none';
+    document.getElementById("xLogoMiniSeven").style.visibility = 'hidden';
+    document.getElementById("h-seven-mini").style.display = 'none';
+    document.getElementById("p-seven-mini").style.display = 'none';
+    document.getElementById("l-seven-mini").style.display = 'none';
+    document.getElementById("xLogoMiniEight").style.visibility = 'hidden';
+    document.getElementById("h-eight-mini").style.display = 'none';
+    document.getElementById("p-eight-mini").style.display = 'none';
+    document.getElementById("l-eight-mini").style.display = 'none';
 
+    document.getElementById("xLogoMiniNine").style.visibility = 'hidden';
+    document.getElementById("h-nine-mini").style.display = 'none';
+    document.getElementById("p-nine-mini").style.display = 'none';
+    document.getElementById("l-nine-mini").style.display = 'none';
 };
 
 
 // Responsive design
-
 function menuOpen () {
     document.getElementById("side-menu").style.width = '290px';
 }
-
 function menuClose () {
     document.getElementById("side-menu").style.width = '0';
 };
 
 
-// Box-one-mini
-
-function dotMenuMini () {
-    document.getElementById("subZeroMini").style.height = '420px';
-    document.getElementById("xLogoMini").style.visibility = 'visible';
-    document.getElementById("paragraph-mini").style.display = 'block';
-};
-
-function xMenuMini() {
-    document.getElementById("subZeroMini").style.height = '0'; 
-    document.getElementById("xLogoMini").style.visibility = 'hidden';
-    document.getElementById("paragraph-mini").style.display = 'none';
-
-};
-
-
 // When clicking on the side
-
 function sideView() {
     document.getElementById("side-menu").style.width = '0';
 };
