@@ -410,34 +410,6 @@ function xMenuMiniNine() {
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Responsive design
 function menuOpen () {
     document.getElementById("side-menu").style.width = '290px';
