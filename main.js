@@ -379,8 +379,6 @@ function xLogo () {
     document.getElementById("p-nine").style.display = 'none';
     document.getElementById("h-nine").style.display = 'none';
     document.getElementById("l-nine").style.display = 'none';
-
-    // Mobile version
     document.getElementById("xLogoMini").style.visibility = 'hidden';
     document.getElementById("paragraph-mini").style.display = 'none';
     document.getElementById("xLogoMiniOne").style.visibility = 'hidden';
@@ -404,15 +402,16 @@ function xLogo () {
     document.getElementById("xLogoMiniSix").style.visibility = 'hidden';
     document.getElementById("p-six-mini").style.display = 'none';
     document.getElementById("l-six-mini").style.display = 'none';
+
     document.getElementById("xLogoMiniSeven").style.visibility = 'hidden';
     document.getElementById("h-seven-mini").style.display = 'none';
     document.getElementById("p-seven-mini").style.display = 'none';
     document.getElementById("l-seven-mini").style.display = 'none';
+
     document.getElementById("xLogoMiniEight").style.visibility = 'hidden';
     document.getElementById("h-eight-mini").style.display = 'none';
     document.getElementById("p-eight-mini").style.display = 'none';
     document.getElementById("l-eight-mini").style.display = 'none';
-
     document.getElementById("xLogoMiniNine").style.visibility = 'hidden';
     document.getElementById("h-nine-mini").style.display = 'none';
     document.getElementById("p-nine-mini").style.display = 'none';
