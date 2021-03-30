@@ -91,7 +91,7 @@ aside {
 main {
 	display: block;
 	height: 100vh;
-	max-width: 100%;
+	width: 100%;
 	overflow-y: scroll;	
 	overflow-x: hidden;
 }
@@ -240,7 +240,7 @@ h4 {
 	position: absolute;
 	bottom:0;
 	transition: 0.5s;
--webkit-transition: 0.5s;
+	-webkit-transition: 0.5s;
 }
 
 .h3 {
@@ -308,17 +308,56 @@ h4 {
 	font-size: 40px;
 }
 
+#container-about{
+	background-color:whitesmoke;
+	margin-top: 20px;
+	max-width: 88%;
+	max-height: 1200px;
+	position: relative;
+	top: 60px;
+	left: 63px;
+	padding:0;
+	margin: 0;
+	display: block;
+	box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.418);
+}
+
+#middle-about{
+	height: auto;
+	
+}
+
+#top-about {
+	height: 90px;	
+}
+
+.line {
+	position: relative;
+	top: 60px;
+	left: 50px;
+	background-color: darkgray;
+	width: 900px;
+	height: 1px;
+}
+
+.about {
+	position: relative;
+	top: 30px;
+	left: 60px;
+}
+
 #about {
-	padding-bottom: 280px;
+	padding-bottom: 200px;
 }
 
 #about p {
-	padding: 10px;
-	padding-left: 70px;
-	padding-right: 60px;
-	padding-top: 40px;
-	font-size: 16px;
-	line-height: 1.8;
+	padding-top: 30px;
+	padding-left: 60px;
+	padding-right: 70px;
+	padding-bottom: 80px;
+	text-align: justify;
+	font-size: 15px;
+	line-height: 1.7;
 }
 
 #contact {
@@ -348,136 +387,263 @@ h4 {
 	color: teal;
 }
 
-#container-experience {
-	background-color:whitesmoke;
-	margin-top: 30px;
-	max-width: 88%;
-	max-height: 500px;
-	position: relative;
-	top: 50px;
-	left: 63px;
-	padding:0;
-	margin: 0;
-	display: block;
-	box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.418);
-}
-
-#top-experience, #top-skills, #top-tools{
-	height: 90px;
-	background-color: whitesmoke;
-}
-
-.line {
-	position: relative;
-	top: 60px;
-	left: 50px;
-	background-color: darkgray;
-	width: 900px;
-	height: 1px;
-}
-
-#middle-experience, #middle-skills, #middle-tools{
-	height: 200px;
-	padding: 20px;
-	padding-left: 50px;
-	font-size: 14px;
-}
-
-#middle-experience {
-	padding-right: 40px;
-}
-
-#middle-experience ul {
-	padding-top: 20px;
-	font-size: 14px;
-}
-
-#middle-experience ul li {
-	margin-top: 10px;
-}
-
-#bottom-experience {
-	height: 70px;
-	background-color: lightgray;
-	opacity: 0.5;
-}
-
-.company-name, .skills, .tools {
-	position: relative;
-	top: 30px;
-	left: 40px;
-}
-
-#top-experience .p {
-	float: right;
-	position: relative;
-	top: 30px;
-	right: 40px;
-	font-size: 14px;
-}
-
-#bottom-experience .p {
-	position: relative;
-	top: 20px;
-	left: 30px;
-	font-size: 14px;
-	color: black;
-}
-
-#container-skills {
-	background-color:whitesmoke;
-	margin-top: 30px;
-	max-width: 88%;
-	max-height: 300px;
-	position: relative;
-	top: 120px;
-	left: 63px;
-	padding:0;
-	margin: 0;
-	display: block;
-	box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.418);
-}
-
-#container-tools {
-	background-color:whitesmoke;
-	margin-top: 10px;
-	max-width: 88%;
-	max-height: 300px;
-	position: relative;
-	top: 195px;
-	left: 63px;
-	padding:0;
-	margin: 0;
-	display: block;
-	box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.418);
-}
-
-.skillsImage {
-	width: 90px;
-	height: 100px;
-	margin-top: 30px;
-	margin-left: 50px;
-	margin-right: 100px;
-}
-
-.adobe {
-	width: 60px;
-	height: 60px;
-	position: relative;
-	top: -25px;
-	margin-left: 50px;
-	margin-right: 100px;
-}
-
-/* Preparation for Responsive design */
-
 header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	display: none;
 	visibility: hidden;
 }
 
+.newp {
+	visibility: hidden;
+	display: none;
+}
+
+
 
 /**** Responsive Design ****/
+
+@media (min-width: 1963px) and (max-width:2600px) {
+
+	aside {
+		width: 18%;
+	}
+	
+	#top-nav {
+		background-color:rgb(211, 211, 211);
+		text-align: center;
+		padding-top: 40px;
+	}
+	
+	.profile-pic {
+		border-radius: 50%;
+		height: 210px;
+		width: 212px;
+		position: relative;
+		left: 5px;
+	}
+	
+	.job-title {
+		font-size: 20px;
+		text-align: center;
+		padding-bottom: 40px;
+	}
+
+	#top-nav figcaption {
+		font-size: 25px;
+	}
+	
+	#bottom-nav a {
+		font-size: 22px;
+		padding-top: 70px;
+		padding-bottom: 70px;
+		padding-left: 160px;	
+	}
+	
+	#bottom-nav .fa-home, #bottom-nav .fa-briefcase, #bottom-nav .fa-user, #bottom-nav .fa-envelope, 
+	#bottom-nav .fa-graduation-cap, #bottom-nav .fa-bar-chart, 
+	#bottom-nav .fa-pencil-square-o, #bottom-nav .fa-pie-chart {
+		margin-right: 20px;
+		font-size: 22px;
+		display: inline-flex;
+	}
+	
+	#bottom-nav .fa-home {
+		font-size: 25px;
+	}
+
+	main {
+		background-color: sandybrown;
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	h4 {
+		text-align: left;
+		padding-left: 500px;
+		padding-top: 60px;
+		font-size: 25px;
+		height: 90px;
+		max-width: 100%;	
+	}
+
+	.oldp {
+		visibility: hidden;
+		display: none;
+	}
+	
+	.newp {
+		visibility: visible;
+		display: block;
+		margin-left: 275px;
+		margin-right: 200px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		text-align: justify;
+	}
+
+	#home h1 {
+		text-align: left;
+		margin-left: 275px;	
+		font-size: 35px;
+	}
+
+	#home a {
+		margin-left: 270px;
+		padding:35px;
+		padding-right: 300px;
+		padding-left: 300px;
+		font-size: 25px;
+	}
+
+	#home .newp {
+		font-size: 25px;
+	}
+	
+	#box-one, #box-two, #box-three, #box-four, #box-five {
+		height: 800px;
+		margin-left: 95px;
+	}
+
+	.big-box {
+		height: auto;
+		width: 800px;
+		margin-right: 70px;
+		margin-top: 40px;
+	}
+
+	.square-image {
+		width: 800px;
+		height: 600px;
+	}
+
+	.square-bottom {
+		padding-top: 20px;
+		padding-left: 8px;
+		padding-right: 5px;
+	}
+
+	.square-bottom .fa-ellipsis-v, .big-box .fa-times {
+		font-size: 32px;
+		float: right;
+		margin-right: 20px;
+		margin-top: 10px;
+		color:black;
+	}
+
+	.shadow-box {
+		background-color: burlywood;
+		width: 800px;
+		height: 0;
+		position: absolute;
+		bottom:0;
+		transition: 0.5s;
+		-webkit-transition: 0.5s;
+	}
+
+	.h3 {
+		margin-left: 20px;
+		font-size: 30px;
+	}
+
+	.main-p {
+		margin-left: 20px;
+		font-size: 22px;
+	}
+
+	.coming-soon-p {
+		color: rebeccapurple;
+		padding-top: 160px;
+		padding-left: 300px;
+		text-align: left;
+		font-size: 30px;
+	}
+
+	.back-h3 {
+		text-align: center;
+		padding-top: 70px;
+		font-size: 30px;
+		text-decoration: underline;
+	}
+
+	#subFour .back-h3 {
+		padding-top: 20px;
+	}
+
+	#subFour .back-p {
+		padding-bottom: 60px;
+		font-size: 20px;
+	}
+
+	.back-p {
+		color: rebeccapurple;
+		padding-top: 20px;
+		padding-left:40px;
+		padding-right: 40px;
+		text-align: justify;
+		font-size: 22px;
+		line-height: 1.8;	
+	}
+
+	.back-links a {
+		color: black;
+		text-decoration: none;
+		display: inline-flex;
+		margin-right: 40px;
+		position: relative;
+		left: 330px;
+		top: 50px;		
+	}
+
+	.back-links a .fa-external-link {
+		font-size: 45px;
+	}
+
+	#subFour .fa-external-link{
+		position: relative;
+		
+		top: -100px;
+	}
+
+	.back-links a .fa-github {
+		font-size: 50px;
+	}
+
+	#container-about {
+		margin-left: 150px;
+	}
+
+	#middle-about p {
+		font-size: 22px;
+	}
+
+	.about {
+		font-size: 24px;
+	}
+
+	.contact-links a {
+		text-decoration: none;
+		display: inline-flex;
+		margin-left: 450px;
+		margin-top: 70px;
+	}
+
+	.contact-links p {
+		font-size: 25px;
+	}
+
+	.contact-links .fa-linkedin-square, .contact-links .fa-imdb, .contact-links .fa-github-square {
+		font-size: 120px;
+		color: black;
+	}
+
+	#contact {
+		padding-bottom: 1000px;
+	}
+
+	
+
+
+
+}
 
 @media (min-width: 0px) and (max-width: 420px) {
 
@@ -577,6 +743,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	#mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		display: block;
 		visibility: visible;
+		overflow-x: hidden;
 	}
 
 	#mini-about h4, #mini-portfolio h4, #mini-contact h4 {
@@ -592,6 +759,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	#mini-home h1 {
 		text-align: center;
 		padding-left: 20px;
+		font-size: 25px;
 	}
 
 	#mini-home p {
@@ -605,6 +773,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		line-height: 1.5;
 		letter-spacing: 0.09px;
 		text-align: justify;
+		font-size: 16px;
 	}
 
 	#mini-home a {
@@ -636,7 +805,51 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		top: 60px;
 		right: 1px;
 		left: 2px;
-		padding-bottom: 700px;
+		margin-bottom: 700px;
+	}
+
+	#box-two-mini {
+		display: block;
+		width: 100%;
+		height: 320px;
+		position: relative;
+		right: 1px;
+		left: 2px;
+		top: 10px;
+		margin-bottom: 640px;
+	}
+
+	#box-three-mini {
+		display: block;
+		width: 100%;
+		height: 320px;
+		position: relative;
+		right: 1px;
+		left: 2px;
+		top: 20px;
+		margin-bottom: 590px;
+	}
+
+	#box-four-mini {
+		display: block;
+		width: 100%;
+		height: 320px;
+		position: relative;
+		right: 1px;
+		left: 2px;
+		top: 80px;
+		margin-bottom: 580px;
+	}
+
+	#box-five-mini {
+		display: block;
+		width: 100%;
+		height: 320px;
+		position: relative;
+		right: 1px;
+		left: 2px;
+		top: 140px;
+		margin-bottom: 800px;
 	}
 
 	.big-box {
@@ -661,13 +874,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	}
 
 	.shadow-box {
-		background-color: burlywood;
 		width: 350px;
-		height: 0;
-		position: absolute;
-		bottom:0;
-		transition: 0.5s;
-	-webkit-transition: 0.5s;
 	}
 
 	.coming-soon-p {
@@ -678,134 +885,75 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		font-size: 20px;
 	}
 
-	/*
-
-	#box-two {
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		height: 420px;
-		position: relative;
-		top: 100px;
-		left: -5px;
-	}
-
-	#box-three {
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		height: 420px;
-		position: relative;
-		top: 160px;
-		left: -5px;
-	}
-
-	#box-four {
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		height: 420px;
-		position: relative;
-		top: 220px;
-		left: -5px;
-	}
-
-	#box-five {
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		height: 420px;
-		position: relative;
-		top: 280px;
-		left: -5px;
-	}
-
-	
-
-	.fa-ellipsis-v, .fa-times {
-		float: right;
-		margin-right: 5px;
-		margin-top: 5px;
-		color:black;	
-	}
-
-	
-
-	.h3 {
-		margin-top: 10px;
-		margin-left: 10px;
-		color: rgb(11, 95, 49);
-		font-size: 15.5px;
-	}
-
-	.main-p {
-		margin-top: 10px;
-		margin-left: 10px;
+	#subFourMini .back-p {
 		font-size: 14px;
+		margin-top: -15px;
 	}
 
-	
-
-	.back-h3 {
-		text-align: center;
-		padding-top: 70px;
-		text-decoration: underline;
+	#subFourMini .back-h3 {
+		font-size: 18px;
+		margin-top: -50px;
 	}
 
-	#subFour .back-h3 {
-		padding-top: 20px;
-	}
-
-	.back-p {
-		color: rebeccapurple;
-		padding-top: 20px;
-		padding-left:40px;
-		padding-right: 40px;
-		text-align: justify;
-		font-size: 14px;
-		line-height: 1.8;	
-	}
-
-	.back-links a {
-		color: black;
-		text-decoration: none;
-		display: inline-flex;
-		margin-right: 20px;
+	#subFourMini .fa-external-link {
+		font-size: 30px;
 		position: relative;
-		left: 150px;
-		top: 50px;		
+		top: -30px;
+		left: 30px;
 	}
 
-	.back-links a .fa-external-link {
-		font-size: 35px;
+	.back-links {
+		margin-left: -20px;
 	}
-
-	#subFour .fa-external-link{
-		margin-left: 25px;
-		position: relative;
-		top: -20px;
-	}
-
-	.back-links a .fa-github {
-		font-size: 40px;
-	}
-*/
-
-
 
 	#mini-about {
 		padding-bottom:100px;
-
 	}
-	
-	#mini-about p {
+
+	#mini-container-about {
+		max-width: 92%;
+		max-height: auto;
+		position: relative;
+		top: 50px;
+		left: 20px;
+		padding:0;
+		margin: 0;
+		background-color: rgba(228, 222, 222, 0.829);
+		display: block;
+		box-shadow: 0.5px 2px 5px 2px rgba(0, 0, 0, 0.37);
+	}
+
+	#mini-top-about {
+		height: 90px;	
+	}
+
+	.line {
+		position: relative;
+		top: 40px;
+		left: 110px;
+		background-color: black;
+		width: 150px;
+		height: 1.5px;
+	}
+
+	.about {
+		position: relative;
+		top: 20px;
+		left: 140px;
+	}
+
+	#mini-middle-about p {
 		position: relative;
 		left: 20px;
-		padding-top:30px;
+	
 		padding-left: 40px;
 		padding-right: 70px;
+		padding-bottom: 60px;
+		font-size: 14px;
 		text-align: justify;
+		line-height: 1.6;
 	}
+
 
 	#mini-contact {
 		padding-bottom: 100px;
@@ -821,29 +969,45 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		top: 60px;
 		right: 100px;
 		font-size: 16px;
-	}
-
-	
+	}	
 
 }
 
 @media (max-width:375px) {
-	
-	#mini-about h4, #mini-portfolio h4, #mini-contact h4 {
-		padding-left: 190px;
-	}
-		
-	#box-one-mini {
-		display: block;
-		width: 100%;
-		height: 320px;
-		position: relative;
-		top: 50px;
-		right: 5px;
-		left: -5px;
-		padding-bottom: 700px;
+
+	#mini-home h1, #mini-home p {
+		display: flex;
+		justify-content: center;
 	}
 
+	#mini-home h1 {
+		font-size: 20px;
+	}
+
+	#mini-home p {
+		padding: 0;
+		margin: 0;
+		padding-top: 20px;
+		padding-left: 60px;
+		padding-right: 40px;
+		padding-bottom: 40px;
+		line-height: 1.8;
+		font-size: 14px;
+	}
+
+	#mini-home a {
+		position: relative;
+		left: 10px;
+	}
+	
+	#mini-about h4, #mini-portfolio h4, #mini-contact h4 {
+		padding-left: 195px;
+	}
+
+	h4 {
+		font-size: 16px;
+	}
+		
 	.big-box {
 		height: auto;
 		width: 320px;
@@ -872,7 +1036,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		position: absolute;
 		bottom:0;
 		transition: 0.5s;
-	-webkit-transition: 0.5s;
+		-webkit-transition: 0.5s;
 	}
 
 	.coming-soon-p {
@@ -892,17 +1056,16 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	
 	#mini-contact .fa-linkedin-square {
 		position: relative;
-		left: 75px;
+		left: 70px;
+		top: -20px;
 	}
 
 	#mini-contact p {
 		position: relative;
-		top: 60px;
-		right: 120px;
-		font-size: 16px;
+		top: 40px;
+		right: 108px;
+		font-size: 14px;
 	}
-
-
 
 }
 
