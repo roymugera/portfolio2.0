@@ -977,7 +977,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	#mini-home {
 		margin-top: 150px;
 		background-color:grey;
-		margin-left: 35px;
+		margin-left: 30px;
 		margin-right: 5px;
 		margin-bottom: 40px;
 		height: 250px;
@@ -989,7 +989,8 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 
 	#mini-home h1 {
 		font-size: 20px;
-		padding-right: 15px;
+		position: relative;
+		left: -5px;
 		
 	}
 
@@ -997,8 +998,8 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		padding: 0;
 		margin: 0;
 		padding-top: 20px;
-		padding-right: 20px;
-		padding-left: 20px;
+		padding-right: 33px;
+		padding-left: 30px;
 		padding-bottom: 40px;
 		text-align: left;
 		line-height: 1.6;
@@ -1009,10 +1010,24 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	}
 
 	#mini-home a {
-		position: relative;
-		left: 5px;
 		border-radius: 2%;
 		margin-bottom: 10px;
+		font-size: 13px;
+		margin-left: 15px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 20px;
+		width: 120px;
+		height: 10px;
+		box-shadow: 0.5px 2px 5px 2px rgba(0, 0, 0, 0.37);
+	}
+
+	#mini-container-about{
+		height: auto;
+		border: 1px solid red;
+		position: relative;
+		left: 20px;
+		margin-right: 5px;
 	}
 	
 	#mini-about h4 {
