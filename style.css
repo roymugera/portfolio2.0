@@ -1137,7 +1137,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 
 	#mini-home a {
 		padding-right: 50px;
-		padding-left: 50px;
+		padding-left: 30px;
 		position: relative;
 		left: 60px;
 	}
@@ -1160,7 +1160,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		padding-left: 117px;
 	}
 
-	#mini-contact .fa-linkedin-square, #mini-contact .fa-github-square, #mini-contact .fa-imdb {
+	#mini-contact .fa-linkedin-square {
 		position: relative;
 		left: 2px;
 	}
@@ -1172,13 +1172,6 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		font-size: 15px;
 	}
 
-	#mini-contact .github-p {
-		position: relative;
-		left: -170px;
-	}
+	
 
-	#mini-contact .vector-p {
-		position: relative;
-		left: -100px;
-	}
 }
