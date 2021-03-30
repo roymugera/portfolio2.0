@@ -975,11 +975,16 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 @media (max-width:375px) {
 
 	#mini-home {
-		background-color: aqua;
-		margin-left: 12px;
+		margin-top: 150px;
+		background-color:grey;
+		margin-left: 35px;
+		margin-right: 5px;
 		margin-bottom: 40px;
 		height: 250px;
-		overflow: hidden;	
+		overflow: hidden;
+		background-color: rgba(228, 222, 222, 0.829);
+		box-shadow: 0.5px 2px 5px 2px rgba(0, 0, 0, 0.37);
+		width: 300px;
 	}
 
 	#mini-home h1 {
@@ -992,8 +997,8 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		padding: 0;
 		margin: 0;
 		padding-top: 20px;
-		padding-right: 60px;
-		padding-left: 60px;
+		padding-right: 20px;
+		padding-left: 20px;
 		padding-bottom: 40px;
 		text-align: left;
 		line-height: 1.6;
@@ -1006,6 +1011,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	#mini-home a {
 		position: relative;
 		left: 5px;
+		border-radius: 2%;
 		margin-bottom: 10px;
 	}
 	
@@ -1049,20 +1055,14 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		padding-left: 80px;
 		width: auto;
 	}
-
-	#mini-portfolio {
-		border: 1px solid red;
-		
-	}
 	
 	.big-box {
 		height: auto;
 		width: 320px;
 		margin-bottom: 60px;
 		position: relative;
-		left: 18.5px;
+		left: 19px;
 		box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.418);
-		border: 1px solid red;
 	}
 
 	.square-image {
