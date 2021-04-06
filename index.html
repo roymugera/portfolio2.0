@@ -5,8 +5,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="This is a Portfolio Website">
-		<meta name="author" content="Omwami Roy">
+		<meta name="description" content="This is a personal website">
+		<meta name="author" content="Roy Mugera">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
@@ -25,7 +25,7 @@
 			</div>
 			<div id ="bottom-nav">
 				<a href="#home"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
-				<a href="#work"><i class="fa fa-briefcase" aria-hidden="true"></i>Work</a>
+				<a href="#portfolio"><i class="fa fa-briefcase" aria-hidden="true"></i>Portfolio</a>
 				<a href="#about"><i class="fa fa-user" aria-hidden="true"></i>About</a>
 				<a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a>
 			</div>	
@@ -39,7 +39,7 @@
 		<div id="side-menu" class="side-menu">
 			<a href="#" class = "btn-close" onclick="menuClose()"><i class="fa fa-times" aria-hidden="true"></i></a>
 			<a href="#mini-home">Home</a>
-			<a href="#mini-portfolio">work</a>
+			<a href="#mini-portfolio">Portfolio</a>
 			<a href="#mini-about">About</a>
 			<a href="#mini-contact">Contact</a>
 		</div>
@@ -47,80 +47,66 @@
 		<main>
 			<div id="home">
 				<h4>Home</h4>
-				<h1>Hey, I'm Roy</h1>
-				<p class="oldp"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo, 
-					volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. 
-					Cras iaculis, mi vel varius malesuada, 
-					nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-					feugiat quis convallis sit amet, tincidunt sed orci. 
+				<h1>Hello, World</h1>
+				<p class="oldp"> My name is Roy and I'm a Self-taught Web developer based in the UK, welcome to my website.<br>
+					It is here that I'll be posting my latest work, industry topics and thoughts, and
+					so much more. <br>For general enquiries please use the link provided below or 
+					visit the contact section of this 
+					website. Nonetheless may you have a blessed day, stay safe and happy browsing.
 				</p>
-				<p class="newp"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-					 volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-					mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-					feugiat quis convallis sit amet, tincidunt sed orci. 
+				<p class="newp"> My name is Roy and I'm a Self-taught Web developer based in the UK, welcome to my website.
+					It is here that I'll be posting my latest work, industry topics and thoughts, and
+					so much more. For general enquiries please use the link provided below or 
+					visit the contact section of this website. 
+					Nonetheless may you have a blessed day, stay safe and happy browsing. Roy Mugera
 				</p>
+
 				<a href="#contact">Contact</a>
 			</div>
-			<div id="work">
-				<h4>Work</h4>
-				<div id="work-section-one">
+			<div id="portfolio">
+				<h4>Portfolio</h4>
+				<div id="box-one">
 					<div class="big-box">
-						<a href="#" onclick="dotMenu()">	
-						<img src="resources/images/IMG_20190309_153313.jpg" class="square-image">
+						<a href="#" onclick="dotMenu()">
+							<img src="resources/images/houseofuni.jpg" class="square-image">
 						</a>
 						<div class="square-bottom">
-							<a href="#" onclick="dotMenu()">
+							<a href="#" onclick="dotMenu ()">
 								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
 							</a>
-							<h3 class="h3">Project Infinity</h3>
-							<p class="main-p">Education company</p>
+							<h3 class="h3">Project A</h3>
+							<p class="main-p">Coming soon</p>	
 						</div>
 						<div id = "subZero" class="shadow-box">
 							<a href="#" onclick="xMenu ()">
-								<i class="fa fa-times" aria-hidden="true" id="xLogo-zero"></i>
+								<i class="fa fa-times" aria-hidden="true" id="xLogo"></i>
 							</a>
-							<h3 id="h-zero" class="back-h3">Project Infinity</h3>
-							<p id="p-zero" class="back-p">
-								Coming Soon
-							</p>
-							<span id="l-zero" class="back-links">
-								<a href="#">
-									<i class="fa fa-external-link" aria-hidden="true"></i>
-								</a>
-							</span>
+							<span id="paragraph" class="coming-soon-p">Coming Soon</span>
 						</div>
 					</div>
 					<div class="big-box">
 						<a href="#" onclick="dotMenuOne()">
 						<img src="resources/images/goingkenya.jpg" class="square-image">
-						</a> 
+						</a>
 						<div class="square-bottom">
 							<a href="#" onclick="dotMenuOne()">
 								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
 							</a>
-							<h3 class="h3">Mosongo and sons Enterprise</h3>
-							<p class="main-p">Travel company</p>
+							<h3 class="h3">Project B</h3>
+							<p class="main-p">Coming soon</p>	
 						</div>
 						<div id = "subOne" class="shadow-box">
 							<a href="#" onclick="xMenuOne()">
 								<i class="fa fa-times" aria-hidden="true" id="xLogo-one"></i>
 							</a>
-							<h3 id="h-one" class="back-h3">Mosongo and Sons Enterprise</h3>
-							<p id="p-one" class="back-p">
-								Coming Soon
-							</p>
-							<span id="l-one" class="back-links">
-								<a href="#">
-									<i class="fa fa-external-link" aria-hidden="true"></i>
-								</a>
-							</span>
+							<span id="p-one" class="coming-soon-p">Coming Soon</span>
 						</div>
 					</div>	
 				</div>
-				<div id="work-section-two">
+				<div id="box-two">
 					<div class="big-box">
 						<a href="#" onclick="dotMenuTwo()">	
-							<img src="resources/images/pianokeys.png" class="square-image">
+						<img src="resources/images/pianokeys.png" class="square-image">
 						</a>
 						<div class="square-bottom">
 							<a href="#" onclick="dotMenuTwo()">
@@ -151,8 +137,8 @@
 					</div>
 					<div class="big-box">
 						<a href="#" onclick="dotMenuThree()">
-							<img src="resources/images/choredoor.png" class="square-image">
-						</a>
+						<img src="resources/images/choredoor.png" class="square-image">
+						</a> 
 						<div class="square-bottom">
 							<a href="#" onclick="dotMenuThree()">
 								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
@@ -164,7 +150,7 @@
 							<a href="#" onclick="xMenuThree ()">
 								<i class="fa fa-times" aria-hidden="true" id="xLogo-three"></i>
 							</a>
-							<h3 id="h-three" class="back-h3">Great Converter</h3>
+							<h3 id="h-three" class="back-h3">Chore Door</h3>
 							<p id="p-three" class="back-p">
 								Chore Door is a fun game of chance, to win you have to avoid 
 								opening the door that has the chorebot. The game is a codecademy project, 
@@ -178,34 +164,212 @@
 									<i class="fa fa-github" aria-hidden="true"></i>
 								</a>
 							</span>
+							
+						</div>
+					</div>	
+				</div>
+				<div id="box-three">
+					<div class="big-box">
+						<a href="#" onclick="dotMenuFour()">	
+						<img src="resources/images/beckster_lifestyle.png" class="square-image">
+						</a>
+						<div class="square-bottom">
+							<a href="#" onclick="dotMenuFour()">
+								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+							</a>
+							<h3 class="h3">The Beckster Lifestyle</h3>
+							<p class="main-p">Storefront site for Beckster LTD.</p>
+						</div>
+						<div id = "subFour" class="shadow-box">
+							<a href="#" onclick="xMenuFour ()">
+								<i class="fa fa-times" aria-hidden="true" id="xLogo-four"></i>
+							</a>
+							<h3 id="h-four" class="back-h3">The Beckster Lifestyle</h3>
+							<p id="p-four" class="back-p">
+								Beckster LTD is the London-based lifestyle and dating coaching company 
+								whose mission is to empower people to build more fulfilling social lives through digital 
+								bootcamps and live seminars. <br><br>
+								I joined the company in Autumn of 2020 where I revamped the company's store-front site, 
+								the new design increased engagement and reversed the bounce rate.
+							</p>
+							<span id="l-four" class="back-links">
+								<a href="https://www.thebecksterlifestyle.com"target="_blank">
+									<i class="fa fa-external-link" aria-hidden="true"></i>
+								</a>
+							</span>
 						</div>
 					</div>
-				</div>	
-			</div>	
+			
+					<div class="big-box">
+						<a href="#" onclick="dotMenuFive()">
+						<img src="resources/images/portfolio-2.0.png" class="square-image">
+						</a>
+						<div class="square-bottom">
+							<a href="#" onclick="dotMenuFive()">
+								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+							</a>
+							<h3 class="h3">Portfolio 2.0</h3>
+							<p class="main-p">Second version of my portfolio site</p>
+						</div>
+						<div id = "subFive" class="shadow-box">
+							<a href="#" onclick="xMenuFive ()">
+								<i class="fa fa-times" aria-hidden="true" id="xLogo-five"></i>
+							</a>
+							<h3 id="h-five" class="back-h3">Portfolio 2.0</h3>
+							<p id="p-five" class="back-p">
+								The latest version of my portfolio site, the design and development process began in summer 2020 after coding
+								Dasmoto and Tea Cozy project.
+							</p>
+							<span id="l-five" class="back-links">
+								<a href="https://www.roymugera.com"target="_blank">
+									<i class="fa fa-external-link" aria-hidden="true"></i>
+								</a>
+								<a href="https://github.com/roymugera/portfolio2.0" target="_blank">
+									<i class="fa fa-github" aria-hidden="true"></i>
+								</a>
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div id="box-four">
+					<div class="big-box">
+						<a href="#" onclick="dotMenuSix()">	
+						<img src="resources/images/recipes.jpg" class="square-image">
+						</a>
+						<div class="square-bottom">
+							<a href="#" onclick="dotMenuSix()">
+								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+							</a>
+							<h3 class="h3">Dasmoto's portfolio</h3>
+							<p class="main-p">Coming soon</p>
+						</div>
+						<div id = "subSix" class="shadow-box">
+							<a href="#" onclick="xMenuSix ()">
+								<i class="fa fa-times" aria-hidden="true" id="xLogo-six"></i>
+							</a>
+							<span id="p-six" class="coming-soon-p">Coming Soon</span>
+						</div>
+					</div>
+					<div class="big-box">
+						<a href="#" onclick="dotMenuSeven()">
+						<img src="resources/images/teacozy.JPG" class="square-image">
+						</a>
+						<div class="square-bottom">
+							<a href="#" onclick="dotMenuSeven()">
+								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+							</a>
+							<h3 class="h3">Tea Cozy</h3>
+							<p class="main-p">Fictional brocuhure site for Tea Cozy LLC.</p>
+						</div>
+						<div id = "subSeven" class="shadow-box">
+							<a href="#" onclick="xMenuSeven()">
+								<i class="fa fa-times" aria-hidden="true" id="xLogo-seven"></i>
+							</a>
+							<h3 id="h-seven" class="back-h3">Tea Cozy</h3>
+							<p id="p-seven" class="back-p">
+								Tea Cozy is a codecademy project that was developed in spring 2020, 
+								added the css hover property to the navigation links for easy navigation, planning to add
+								more features by the end of this year. 
+							</p>
+							<span id="l-seven" class="back-links">
+								<a href="https://teacozyuk.netlify.app"target="_blank">
+									<i class="fa fa-external-link" aria-hidden="true"></i>
+								</a>
+								<a href="https://github.com/roymugera/teacozy" target="_blank">
+									<i class="fa fa-github" aria-hidden="true"></i>
+								</a>
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div id="box-five">
+					<div class="big-box">
+						<a href="#" onclick="dotMenuEight()">	
+						<img src="resources/images/portfolio_initial.png" class="square-image">
+						</a>
+						<div class="square-bottom">
+							<a href="#" onclick="dotMenuEight()">
+								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+							</a>
+							<h3 class="h3">Portfolio 1.0</h3>
+							<p class="main-p">First version of my portfolio site</p>
+						</div>
+						<div id = "subEight" class="shadow-box">
+							<a href="#" onclick="xMenuEight ()">
+								<i class="fa fa-times" aria-hidden="true" id="xLogo-eight"></i>
+							</a>
+							<h3 id="h-eight" class="back-h3">Portfolio 1.0</h3>
+							<p id="p-eight" class="back-p">
+								First version of my portfolio site, developed in early 2020 after completing the 
+								Code Institute's 5-day coding challenge.
+							</p>
+							<span id="l-eight" class="back-links">
+								<a href="https://roymugera-version-one.netlify.app"target="_blank">
+									<i class="fa fa-external-link" aria-hidden="true"></i>
+								</a>
+								<a href="https://github.com/roymugera/portfolio1.0" target="_blank">
+									<i class="fa fa-github" aria-hidden="true"></i>
+								</a>
+							</span>
+						</div>
+					</div>
+					<div class="big-box">
+						<a href="#" onclick="dotMenuNine()">
+						<img src="resources/images/gc_2014.png" class="square-image">
+						</a>
+						<div class="square-bottom">
+							<a href="#" onclick="dotMenuNine()">
+								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+							</a>
+							<h3 class="h3">Great Converter</h3>
+							<p class="main-p">Web application for International prospects.</p>
+						</div>
+						<div id = "subNine" class="shadow-box">
+							<a href="#" onclick="xMenuNine()">
+								<i class="fa fa-times" aria-hidden="true" id="xLogo-nine"></i>
+							</a>
+							<h3 id="h-nine" class="back-h3">Great Converter</h3>
+							<p id="p-nine" class="back-p">
+								My first ever project, one that lured me into the world of 
+								programming and tech. Great converter is a digital service 
+								aimed at helping international prospects to easily navigate the UK's education 
+								curriculum, the concept will be optimised soon. 
+							</p>
+							<span id="l-nine" class="back-links">
+								<a href="https://greatconverter.netlify.app"target="_blank">
+									<i class="fa fa-external-link" aria-hidden="true"></i>
+								</a>
+								<a href="https://github.com/roymugera/greatconverter" target="_blank">
+									<i class="fa fa-github" aria-hidden="true"></i>
+								</a>
+							</span>
+						</div>
+					</div>	
+				</div>
+				
+			</div>
 			<div id="about">
 				<h4>About</h4>
 				<div id="container-about">
 					<div id="top-about">
-						<span class="about">A bit more about me..</span>
+						<span class="about">Summary</span>
 						<div class="line"></div>
 					</div>
 					<div id="middle-about">
-						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-							volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-						   	mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-						   	feugiat quis convallis sit amet, tincidunt sed orci. <br><br>
-						  	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-						  	volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-						  	mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-						  	feugiat quis convallis sit amet, tincidunt sed orci.  <br><br>
-						  	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-						  	volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-						 	mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-						 	feugiat quis convallis sit amet, tincidunt sed orci.  <br><br>
-						 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-						 	volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-							mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-							feugiat quis convallis sit amet, tincidunt sed orci. 
+						<p> I'm hardworking and passionate about tech, skilled in HTML, CSS, JavaScript, Git, UX and UI design. 
+								Just had an exciting 5-month internship at Beckster LTD where I revamped the company's brochure website,
+								the new design increased engagement and reversed the bounce rate.<br><br>
+								My web development journey began in 2014, back then I was pursuing a BTEC course in Business Management and Financial services. 
+								I met an IT tutor who was managing her own computer vending store at the college, it was at her store that I would get my laptop fixed and learned how to code. Later in the year she introduced me to a national competition called 'iDEA', 
+								an initiative that was in partnership with the Duke of York and the American Artist Will.IAM. <br><br>
+								The competition required students to develop an innovative solution-based idea, the prize was £10,000 for investment. 
+								Under the guidance of the tutor I created an overseas-qualifications converter to assist foreign students, including refugees,
+								to find their way around academic choices easily. <br><br>
+								Adobe DreamWeaver and Google slides were the tools I used in designing the web app version. 
+								My design process would start in Google Slides where I did all the sketching and to bring the project to life I would 
+								use Adobe DreamWeaver. I was amongst the top finishers and got awarded a Digital bronze badge, 
+								left with brilliant skills and have since grown my network of contacts. My biggest 
+								passion at the moment is sketching and building prototypes from the ground up.
 						</p>	
 					</div>
 				</div>	
@@ -213,20 +377,21 @@
 			<div id="contact">
 				<h4>Contact</h4>
 				<span class="contact-links">
-					<a href="#">
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-						<p style="text-decoration: underline;">roymugera@no-email.com</p>
+					<a href="https://linkedin.com/in/roymugera" target="_blank">
+						<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+						<p style="text-decoration: underline;">https://linkedin.com/in/roymugera</p>
 					</a>
 				</span>	
 			</div>		
 		</main>
 		<div id="mini-main" onclick="sideView()" onload="xLogo()">
 			<div id="mini-home">
-				<h1>Hey, I'm Roy</h1>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-					volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-				   mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-				   feugiat quis convallis sit amet, tincidunt sed orci.
+				<h1>Hello, World</h1>
+				<p> My name is Roy and I'm a Self-taught Web developer based in the UK, welcome to my website.
+					It is here that I'll be posting my latest work, industry topics and thoughts, and
+					so much more. <br><br>For general enquiries please use the link provided below or 
+					visit the contact section of this 
+					website. Nonetheless may you have a blessed day, stay safe and happy browsing.
 				</p>
 				<a href="#mini-contact">Contact</a>
 			</div>
@@ -235,14 +400,14 @@
 				<div id="box-one-mini">
 					<div class="big-box">
 						<a href="#" onclick="dotMenuMini()">
-							<img src="resources/images/IMG_20190309_153313.jpg" class="square-image">
+							<img src="resources/images/houseofuni.jpg" class="square-image">
 						</a>
 						<div class="square-bottom">
 							<a href="#" onclick="dotMenuMini()">
 								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
 							</a>
-							<h3 class="h3">Project Infinity</h3>
-							<p class="main-p">Education company</p>	
+							<h3 class="h3">Project A</h3>
+							<p class="main-p">Coming soon</p>	
 						</div>
 						<div id = "subZeroMini" class="shadow-box">
 							<a href="#" onclick="xMenuMini ()">
@@ -259,8 +424,8 @@
 							<a href="#" onclick="dotMenuMiniOne()">
 								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
 							</a>
-							<h3 class="h3">Mosongo and sons Enterprise</h3>
-							<p class="main-p">Travel company</p>
+							<h3 class="h3">Project B</h3>
+							<p class="main-p">Coming soon</p>	
 						</div>
 						<div id = "subOneMini" class="shadow-box">
 							<a href="#" onclick="xMenuMiniOne()">
@@ -304,7 +469,7 @@
 					</div>
 					<div class="big-box">
 						<a href="#" onclick="dotMenuMiniThree()">
-							<img src="resources/images/choredoor.png" class="square-image">
+						<img src="resources/images/choredoor.png" class="square-image">
 						</a> 
 						<div class="square-bottom">
 							<a href="#" onclick="dotMenuMiniThree()">
@@ -331,6 +496,69 @@
 									<i class="fa fa-github" aria-hidden="true"></i>
 								</a>
 							</span>
+							
+						</div>
+					</div>	
+				</div>
+				<div id="box-three-mini">
+					<div class="big-box">
+						<a href="#" onclick="dotMenuMiniFour()">	
+						<img src="resources/images/beckster_lifestyle.png" class="square-image">
+						</a>
+						<div class="square-bottom">
+							<a href="#" onclick="dotMenuMiniFour()">
+								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+							</a>
+							<h3 class="h3">The Beckster Lifestyle</h3>
+							<p class="main-p">Storefront site for Beckster LTD.</p>
+						</div>
+						<div id = "subFourMini" class="shadow-box">
+							<a href="#" onclick="xMenuMiniFour ()">
+								<i class="fa fa-times" aria-hidden="true" id="xLogoMiniFour"></i>
+							</a>
+							<h3 id="h-four-mini" class="back-h3">The Beckster Lifestyle</h3>
+							<p id="p-four-mini" class="back-p">
+								Beckster LTD is the London-based lifestyle and dating coaching company 
+								whose mission is to empower people to build more fulfilling social lives through digital 
+								bootcamps and live seminars. <br><br>
+								I joined the company in Autumn of 2020 where I revamped the company's store-front site, 
+								the new design increased engagement and reversed the bounce rate.
+							</p>
+							<span id="l-four-mini" class="back-links">
+								<a href="https://www.thebecksterlifestyle.com"target="_blank">
+									<i class="fa fa-external-link" aria-hidden="true"></i>
+								</a>
+							</span>
+						</div>
+					</div>
+					<div class="big-box">
+						<a href="#" onclick="dotMenuMiniFive()">
+						<img src="resources/images/portfolio-2.0.png" class="square-image">
+						</a>
+						<div class="square-bottom">
+							<a href="#" onclick="dotMenuMiniFive()">
+								<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+							</a>
+							<h3 class="h3">Portfolio 2.0</h3>
+							<p class="main-p">Second version of my portfolio site</p>
+						</div>
+						<div id = "subFiveMini" class="shadow-box">
+							<a href="#" onclick="xMenuMiniFive ()">
+								<i class="fa fa-times" aria-hidden="true" id="xLogoMiniFive"></i>
+							</a>
+							<h3 id="h-five-mini" class="back-h3">Portfolio 2.0</h3>
+							<p id="p-five-mini" class="back-p">
+								The latest version of my portfolio site, the design and development process began in summer 2020 after coding
+								Dasmoto and Tea Cozy project.
+							</p>
+							<span id="l-five-mini" class="back-links">
+								<a href="https://www.roymugera.com"target="_blank">
+									<i class="fa fa-external-link" aria-hidden="true"></i>
+								</a>
+								<a href="https://github.com/roymugera/portfolio2.0" target="_blank">
+									<i class="fa fa-github" aria-hidden="true"></i>
+								</a>
+							</span>
 						</div>
 					</div>	
 				</div>
@@ -343,22 +571,20 @@
 						<div class="line"></div>
 					</div>
 					<div id="mini-middle-about">
-						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-							volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-						   	mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-						   	feugiat quis convallis sit amet, tincidunt sed orci. <br><br>
-						  	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-						  	volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-						  	mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-						  	feugiat quis convallis sit amet, tincidunt sed orci.  <br><br>
-						  	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-						  	volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-						 	mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-						 	feugiat quis convallis sit amet, tincidunt sed orci.  <br><br>
-						 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum tempor justo,
-						 	volutpat condimentum neque aliquam finibus. Fusce lobortis eros sit amet arcu fermentum aliquam. Cras iaculis, 
-							mi vel varius malesuada, nunc diam molestie tortor, et commodo sem nunc sed mi. Integer orci erat, 
-							feugiat quis convallis sit amet, tincidunt sed orci. 
+						<p> I'm hardworking and passionate about tech, skilled in HTML, CSS, JavaScript, Git, UX and UI design. 
+							Just had an exciting 5-month internship at Beckster LTD where I revamped the company's brochure website,
+							the new design increased engagement and reversed the bounce rate.<br><br>
+							My web development journey began in 2014, back then I was pursuing a BTEC course in Business Management and Financial services. 
+							I met an IT tutor who was managing her own computer vending store at the college, it was at her store that I would get my laptop fixed and learned how to code. Later in the year she introduced me to a national competition called 'iDEA', 
+							an initiative that was in partnership with the Duke of York and the American Artist Will.IAM. <br><br>
+							The competition required students to develop an innovative solution-based idea, the prize was £10,000 for investment. 
+							Under the guidance of the tutor I created an overseas-qualifications converter to assist foreign students, including refugees,
+							to find their way around academic choices easily. <br><br>
+							Adobe DreamWeaver and Google slides were the tools I used in designing the web app version. 
+							My design process would start in Google Slides where I did all the sketching and to bring the project to life I would 
+							use Adobe DreamWeaver. I was amongst the top finishers and got awarded a Digital bronze badge, 
+							left with brilliant skills and have since grown my network of contacts. My biggest 
+							passion at the moment is sketching and building prototypes from the ground up.
 						</p>	
 					</div>
 				</div>
@@ -366,9 +592,9 @@
 			<div id="mini-contact">
 				<h4>Contact</h4>
 				<span class="contact-links">
-					<a href="#">
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-						<p style="text-decoration: underline;">roymugera@no-email.com</p>
+					<a href="https://linkedin.com/in/roymugera" target="_blank">
+						<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+						<p style="text-decoration: underline;">https://linkedin.com/in/roymugera</p>
 					</a>
 				</span>	
 			</div>
