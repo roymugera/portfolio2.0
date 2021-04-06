@@ -160,7 +160,7 @@ function xMenuNine() {
 
 
 
-// Different ID's for the body
+// Different ID's for the html body element
 function xLogo () {
     document.getElementById("xLogo").style.visibility = 'hidden';
     document.getElementById("paragraph").style.display = 'none';
