@@ -25,6 +25,10 @@ function xLogo () {
     document.getElementById("h-two-mini").style.display = 'none';
     document.getElementById("p-two-mini").style.display = 'none';
     document.getElementById("l-two-mini").style.display = 'none';
+    document.getElementById("xLogoMiniThree").style.visibility = 'hidden';
+    document.getElementById("h-three-mini").style.display = 'none';
+    document.getElementById("p-three-mini").style.display = 'none';
+    document.getElementById("l-three-mini").style.display = 'none';
 };
 
 
@@ -100,7 +104,6 @@ function xMenuThree() {
 };
 
 
-
 // Responsive design
 function menuOpen () {
     document.getElementById("side-menu").style.width = '290px';
@@ -109,83 +112,10 @@ function menuClose () {
     document.getElementById("side-menu").style.width = '0';
 };
 
-
-<<<<<<< HEAD
-
-
-// Different ID's for the html body element
-function xLogo () {
-    document.getElementById("xLogo").style.visibility = 'hidden';
-    document.getElementById("paragraph").style.display = 'none';
-    document.getElementById("xLogo-one").style.visibility = 'hidden';
-    document.getElementById("p-one").style.display = 'none';
-    document.getElementById("xLogo-two").style.visibility = 'hidden';
-    document.getElementById("p-two").style.display = 'none';
-    document.getElementById("h-two").style.display = 'none';
-    document.getElementById("l-two").style.display = 'none';
-    document.getElementById("xLogo-three").style.visibility = 'hidden';
-    document.getElementById("p-three").style.display = 'none';
-    document.getElementById("h-three").style.display = 'none';
-    document.getElementById("l-three").style.display = 'none';
-    document.getElementById("xLogo-four").style.visibility = 'hidden';
-    document.getElementById("p-four").style.display = 'none';
-    document.getElementById("h-four").style.display = 'none';
-    document.getElementById("l-four").style.display = 'none';
-    document.getElementById("xLogo-five").style.visibility = 'hidden';
-    document.getElementById("p-five").style.display = 'none';
-    document.getElementById("h-five").style.display = 'none';
-    document.getElementById("l-five").style.display = 'none';
-    document.getElementById("xLogo-six").style.visibility = 'hidden';
-    document.getElementById("p-six").style.display = 'none';
-    document.getElementById("xLogo-seven").style.visibility = 'hidden';
-    document.getElementById("xLogo-eight").style.visibility = 'hidden';
-    document.getElementById("p-eight").style.display = 'none';
-    document.getElementById("h-eight").style.display = 'none';
-    document.getElementById("l-eight").style.display = 'none';
-    document.getElementById("xLogo-nine").style.visibility = 'hidden';
-    document.getElementById("p-nine").style.display = 'none';
-    document.getElementById("h-nine").style.display = 'none';
-    document.getElementById("l-nine").style.display = 'none';
-    document.getElementById("xLogoMini").style.visibility = 'hidden';
-    document.getElementById("paragraph-mini").style.display = 'none';
-    document.getElementById("xLogoMiniOne").style.visibility = 'hidden';
-    document.getElementById("p-mini-one").style.display = 'none';
-    document.getElementById("xLogoMiniTwo").style.visibility = 'hidden';
-    document.getElementById("h-two-mini").style.display = 'none';
-    document.getElementById("p-two-mini").style.display = 'none';
-    document.getElementById("l-two-mini").style.display = 'none';
-    document.getElementById("xLogoMiniThree").style.visibility = 'hidden';
-    document.getElementById("h-three-mini").style.display = 'none';
-    document.getElementById("p-three-mini").style.display = 'none';
-    document.getElementById("l-three-mini").style.display = 'none';
-    document.getElementById("xLogoMiniFour").style.visibility = 'hidden';
-    document.getElementById("h-four-mini").style.display = 'none';
-    document.getElementById("p-four-mini").style.display = 'none';
-    document.getElementById("l-four-mini").style.display = 'none';
-    document.getElementById("xLogoMiniFive").style.visibility = 'hidden';
-    document.getElementById("h-five-mini").style.display = 'none';
-    document.getElementById("p-five-mini").style.display = 'none';
-    document.getElementById("l-five-mini").style.display = 'none';
-    document.getElementById("xLogoMiniSix").style.visibility = 'hidden';
-    document.getElementById("p-six-mini").style.display = 'none';
-    document.getElementById("l-six-mini").style.display = 'none';
-    document.getElementById("xLogoMiniSeven").style.visibility = 'hidden';
-    document.getElementById("h-seven-mini").style.display = 'none';
-    document.getElementById("p-seven-mini").style.display = 'none';
-    document.getElementById("l-seven-mini").style.display = 'none';
-    document.getElementById("xLogoMiniEight").style.visibility = 'hidden';
-    document.getElementById("h-eight-mini").style.display = 'none';
-    document.getElementById("p-eight-mini").style.display = 'none';
-    document.getElementById("l-eight-mini").style.display = 'none';
-    document.getElementById("xLogoMiniNine").style.visibility = 'hidden';
-    document.getElementById("h-nine-mini").style.display = 'none';
-    document.getElementById("p-nine-mini").style.display = 'none';
-    document.getElementById("l-nine-mini").style.display = 'none';
-=======
+    
 // When clicking on the side
 function sideView() {
     document.getElementById("side-menu").style.width = '0';
->>>>>>> 7a5521fa792eb777ae782e29fe64bc99fbbb776e
 };
 
 

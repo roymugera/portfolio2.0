@@ -407,7 +407,6 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	}
 
 	main {
-		background-color: sandybrown;
 		max-width: 100%;
 		overflow-x: hidden;
 	}
@@ -454,7 +453,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		font-size: 25px;
 	}
 	
-	#box-one, #box-two, #box-three, #box-four, #box-five {
+	#work-section-one, #work-section-two {
 		height: 800px;
 		margin-left: 95px;
 	}
@@ -503,14 +502,6 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	.main-p {
 		margin-left: 20px;
 		font-size: 22px;
-	}
-
-	.coming-soon-p {
-		color: rebeccapurple;
-		padding-top: 160px;
-		padding-left: 300px;
-		text-align: left;
-		font-size: 30px;
 	}
 
 	.back-h3 {
@@ -586,18 +577,9 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		font-size: 25px;
 	}
 
-	.contact-links .fa-linkedin-square, .contact-links .fa-imdb, .contact-links .fa-github-square {
-		font-size: 120px;
-		color: black;
-	}
-
 	#contact {
 		padding-bottom: 1000px;
-	}
-
-	
-
-
+	}	
 
 }
 
@@ -707,9 +689,18 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 	}
 
 	#mini-home {
-		margin-top: 120px;
+		margin-top: 150px;
+		background-color:grey;
+		position: relative;
+		left: 25px;
+		margin-bottom: 100px;
+		height: 250px;
+		overflow: hidden;
+		background-color: rgba(228, 222, 222, 0.829);
+		box-shadow: 0.5px 2px 5px 2px rgba(0, 0, 0, 0.37);
+		width: 360px;
 		padding-top: 40px;
-		padding-bottom:200px;
+		padding-bottom:300px;
 	}
 	
 	#mini-home h1 {
@@ -722,9 +713,9 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		display: flex;
 		justify-content: center;
 		margin-left: 20px;
-		padding-top:20px;
-		padding-left: 50px;
-		padding-right: 47px;
+		padding-top:30px;
+		padding-left: 5px;
+		padding-right: 20px;
 		padding-bottom: 50px;
 		line-height: 1.5;
 		letter-spacing: 0.09px;
@@ -741,8 +732,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		display: flex;
 		justify-content: center;
 		position: relative;
-		left: 15px;
-		right: 50px;
+		left: 2px;
 		margin-right: 50px;
 		margin-left: 50px;
 		color: white;	
@@ -909,20 +899,20 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		line-height: 1.6;
 	}
 
-
 	#mini-contact {
 		padding-bottom: 100px;
 	}
 
-	#mini-contact .fa-linkedin-square {
+	#mini-contact .fa-envelope{
 		position: relative;
-		left: 90px;
+		left: 85px;
+		top: -10px;
 	}
 
 	#mini-contact p {
 		position: relative;
-		top: 60px;
-		right: 100px;
+		top: 50px;
+		right: 85px;
 		font-size: 16px;
 	}	
 
@@ -931,16 +921,18 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 @media (max-width:375px) {
 
 	#mini-home {
-		margin-top: 120px;
+		margin-top: 150px;
 		background-color:grey;
-		margin-left: 25px;
-		margin-right: 5px;
-		margin-bottom: 40px;
+		position: relative;
+		left: 25px;
+		margin-bottom: 80px;
 		height: 250px;
 		overflow: hidden;
 		background-color: rgba(228, 222, 222, 0.829);
 		box-shadow: 0.5px 2px 5px 2px rgba(0, 0, 0, 0.37);
 		width: 320px;
+		padding-top: 40px;
+		padding-bottom:200px;
 	}
 
 	#mini-home h1 {
@@ -969,7 +961,7 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		border-radius: 2%;
 		margin-bottom: 10px;
 		font-size: 13px;
-		margin-left: 25px;
+		margin-left: 40px;
 		padding-left: 60px;
 		padding-right: 60px;
 		padding-bottom: 20px;
@@ -1072,17 +1064,17 @@ header, #mini-main, #mini-home, #mini-portfolio, #mini-about, #mini-contact {
 		color:black;	
 	}
 	
-	#mini-contact .fa-linkedin-square {
+	#mini-contact .fa-envelope{
 		position: relative;
-		left: 70px;
-		top: -20px;
+		left: 65px;
+		top: -30px;
 	}
 
 	#mini-contact p {
 		position: relative;
-		top: 40px;
-		right: 108px;
-		font-size: 14px;
+		top: 30px;
+		right: 80px;
+		font-size: 12px;
 	}
 }
 
